@@ -1,0 +1,30 @@
+package day12_JavaRecap;
+
+import java.util.Scanner;
+
+public class Scanner_NextLine {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in); //13+Enter
+
+        System.out.println("Enter some number");
+//        String name = input.next (); // Enter+Enter+Enter "Muhtar"
+        int num = input.nextInt(); // 13+Enter  //scanner object //13
+        System.out.println(num);
+
+        input.nextLine();//Enter //used for taking out the "Enter"
+
+        System.out.println("Enter your name: ");
+        String name = input.nextLine(); // Enter  //scanner objet
+        System.out.println(name);
+
+
+
+
+
+    }
+
+
+
+
+}
