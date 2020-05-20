@@ -5,7 +5,7 @@ public class _01Pet {
     custom class: pet
             variables: name, age, color, size, breed, isPet, numbersOfeyes
 
-            methods:   eat, sleep, drink, toString
+            methods:   eat, sleep, drink, toString, setInfo
      */
 
     protected String name;
@@ -16,6 +16,15 @@ public class _01Pet {
 
     protected static boolean isPet = true;
     protected static int numberOfEyes = 2;
+
+    public void setInfo (String name, int age, String color, String size, String breed) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+    this.size = size;
+    this.breed = breed;
+    }
+
 
     public void eat (String food) {
         System.out.println(name + " is eating " + food);
