@@ -1,7 +1,5 @@
 package day34_CustomClass;
 
-import Repl_it.Repl_its._forLoopCountdownTo0;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -10,14 +10,17 @@ class B {
     }
 
     public B (long a) {
-        System.out.println("long");
+        this(4.5); //double
+        //this(10); one constructor can only call one constructor
+        System.out.println("long"); //long
+        //this(4.5); //this should be in the beginning before sout
     }
 }
 
 public class _08InheritanceReview extends B { //must be called in subclass
 
     public _08InheritanceReview (String a) {
-        super(19l); //int
+        super(19l); //double long
         System.out.println("String"); //string
     }
 
