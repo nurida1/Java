@@ -1,7 +1,5 @@
 package Practise.practise;
 
-import OfficeHours.Practise_05_06_2020.Developer;
-
 public class Test {
 
 
