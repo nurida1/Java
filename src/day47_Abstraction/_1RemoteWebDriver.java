@@ -6,7 +6,7 @@ public abstract class _1RemoteWebDriver {
     protected abstract void get(String URL); //public protected default, in sub class same or more visible
     //PRIVATE abstract void get(String URL);       YOU CANNOT OVERRIDE
     //public abstract STATIC void get(String URL); YOU CANNOT USE OVERRIDE
-    //public abstract FINAL void get(String URL);  YOU CANNOT USE OVERRIDE
+    //public FINAL abstract  void get(String URL);  YOU CANNOT USE OVERRIDE
 
     public abstract void quit(); //public or protected for quit method. Should be abstract to hide implementation
 
