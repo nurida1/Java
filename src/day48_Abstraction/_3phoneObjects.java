@@ -24,6 +24,16 @@ public class _3phoneObjects {
         samsung1.texting(122434);
 
 
+        System.out.println("==============================================");
+
+        Nokia nokia1 = new Nokia(500, "5 inches");
+        System.out.println(nokia1);
+        nokia1.calling(12345);
+        nokia1.texting(12345);
+
+        nokia1.breakTheFloor();
+        nokia1.selfDefence();
+
 
     }
 
