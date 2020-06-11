@@ -1,6 +1,6 @@
 package day46_final_abstract;
 
-class Test2 {
+class Test {
 
     public final void method1() {
         System.out.println("A");
@@ -8,7 +8,7 @@ class Test2 {
 }
 
 
-public class final_methods2 extends Test{
+public class final_methods2 extends Test2 {
 
 /*
     @Override

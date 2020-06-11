@@ -2,7 +2,7 @@ package day46_final_abstract;
 
 import java.io.IOException;
 
-public class Test {
+public class Test2 {
 
     static int a = 50;
     public static void main(String[] args) throws RuntimeException {
