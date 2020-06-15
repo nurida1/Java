@@ -5,18 +5,49 @@ interface I {
     //abstract void method3();
     abstract int method3();
 
+    //public I() {} u cannot have constructor
+
+    //public void m() {}  u cannot have method with body
+
+    //public void m() {}
+    //static {}
+
+    int a = 1_000; //public static final
+
+    public static void main(String[] args) {
+        System.out.println(a);
+        //a = 2_000;
+
+    }
+}
+
+abstract class A { //u can have anything that regular class has, plus abstract methods. U cannot create objects
+
+    {}
+
+    static {
+
+    }
+
+
+
+    public A() {//u can create Constructor
+
+    }
+    protected abstract void method1();
+    //abstract void method4();
+    public void method4() {
+
+    }
 
 }
 
-abstract class A {
-    public abstract void method1();
+interface I2{
 
 }
 
 
-
-
-public class _8Abstraction { //hiding implementation details
+public class _8Abstraction extends A implements I, I2 { //hiding implementation details
                              //Concentrating on essentials/importance, without worrying the details
                              //2 ways to achieve Abstraction:
                              //1) Abstract  2) Interface
@@ -68,6 +99,26 @@ public class _8Abstraction { //hiding implementation details
      */
 
     //public abstract void method1(); u cannot create abstract method, because the class is not abstract
+    //access modifier should be same or more visible
+    //Method OVERRIDING: return type, method name, parameters MUST be same
+    //if class is Abstract it's optional to override abstract methods, however, if class is not Abstract it's Mandatory to override methods
+
+    @Override
+    protected void method1() {
+
+    }
+
+    @Override
+   public void method2() {
+
+    }
+
+    @Override
+    public int method3() {
+        return 0;
+    }
+
+
 
 
 
