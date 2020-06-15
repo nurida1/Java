@@ -14,6 +14,11 @@ public abstract class _1Animal { //u cannot create objects from Abstract class
         System.out.println("Animal is sleeping");
     }
 
+    public static void methodA() { //u cannot override static method
+        System.out.println("Animal Class");
+    }
+
+
 
 
 
