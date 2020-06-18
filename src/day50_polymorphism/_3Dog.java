@@ -1,7 +1,8 @@
 package day50_polymorphism;
 /*
-variables: dogName;
-method: bark
+3. create subclass of Animal named Dog
+            variable: dogName
+            methods: bark
  */
 public final class _3Dog extends _1Animal{ //3 var, 3 methods
 

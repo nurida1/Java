@@ -1,4 +1,10 @@
 package day50_polymorphism;
+/*
+ 1. cerate a class Animal
+            variables: age, gender
+            methods: eat, sleep
+        DO NOT make abstract we need this for today's example
+ */
 
 //2 var, 2 ins
 public abstract class _1Animal { //u cannot create objects from Abstract class
