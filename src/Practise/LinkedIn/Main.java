@@ -19,6 +19,9 @@ public class Main {
         myCar.changePaintColor(Color.red);
         System.out.println(myCar.paintColor.toString()); //RGB values, therefore need toString method
 
+        double myCarSpeed = 50;
+        myCarSpeed = myCar.speedingUp(myCarSpeed);
+        System.out.println(myCarSpeed); //150
 
     }
 }
