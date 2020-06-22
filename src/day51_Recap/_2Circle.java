@@ -21,7 +21,6 @@ public final class _2Circle extends _1Shape implements _1Shape.PI {
         name = "Circle";
     }
 
-
     @Override
     public double calculateArea() {
         return radius*radius*PI;

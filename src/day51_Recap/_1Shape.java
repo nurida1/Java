@@ -16,7 +16,7 @@ warmup tasks:
 
 
  */
-public abstract class _1Shape { //2 ways to achieve abstruction: by abstract class or interface class
+public abstract class _1Shape { //2 ways to achieve abstraction: by abstract class or interface class
 
     public static String name;
 

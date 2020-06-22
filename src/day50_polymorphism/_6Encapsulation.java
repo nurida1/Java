@@ -3,7 +3,7 @@ package day50_polymorphism;
 public class _6Encapsulation { //hiding data by giving private access modifier
 
    //private final String username = "Cybertek"; //final data u cannot modify it, but u can read
-   private String username = "Cybertek"; //final data u cannot modify it, but u can read
+   private String username = "Cybertek";
 
    public String getUsername() { //read only - returns the private data
        return username;
